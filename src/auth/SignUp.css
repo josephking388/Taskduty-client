@@ -1,0 +1,18 @@
+.eye-icon {
+    position: absolute;
+    right: 20px;
+    top: 75%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/images/eye-icon.png'); /* Path to your eye icon image */
+    background-size: cover;
+    cursor: pointer;
+    opacity: 1; /* Initial opacity */
+    transition: opacity 0.4s ease;
+  }
+  
+  .eye-icon.visible {
+    opacity: 0.5; /* Increase opacity when password is revealed */
+  }
+  
